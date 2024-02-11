@@ -1,8 +1,47 @@
 /*index.css*/
+body {
+  background-color: rgb(255, 215, 183);
+}
+
 h2 {
-  color: blue;
+  color: rgb(255, 115, 0);
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-style: italic;
+ 
 }
 
 .delete {
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border-color: rgb(135, 173, 244);
+}
+
+.delete:hover {
+  background-color: rgb(135, 173, 244);
+  color: white;
+  
+}
+
+.row {
+  color: rgb(255, 115, 0);
+  margin-bottom: 15px;
+  border-bottom: solid;
+  font-weight: 800;
+}
+
+.mark-complete {
+  margin-bottom: 15px;
+}
+
+.create-button:hover {
+  background-color:  rgb(135, 173, 244);
+  margin-left: 10px;
+  color: white;
+  
+}
+
+.create-button {
+  border-color: rgb(135, 173, 244);
 }
